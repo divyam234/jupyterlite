@@ -14,4 +14,4 @@ python -m pip install -r _requirements.txt
 
 # build the JupyterLite site
 jupyter lite --version
-jupyter lite build --output-dir dist
+jupyter lite build --contents content --output-dir dist
